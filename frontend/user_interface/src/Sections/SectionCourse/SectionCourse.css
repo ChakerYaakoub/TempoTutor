@@ -1,0 +1,96 @@
+.SectionContinueAll {
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.MyfixedHeader {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.HeaderSection1234 {
+    position: fixed;
+    width: 100%;
+    /* top: 100.5px; */
+    background: #EFEFEF;
+    z-index: 1;
+
+}
+
+.SidebareSectionAll {
+    width: 30%;
+    /* height: -webkit-calc(100% - 103px); */
+    height: 85vh;
+    overflow: auto;
+    position: fixed;
+    top: 154.597px;
+    border-radius: 3px;
+    background: #F5F5F5;
+    border-right: 2px solid #E5E9F0;
+    /* transition: left 0.5s; */
+    z-index: 1;
+
+
+}
+
+.SidebareSectionAll::-webkit-scrollbar {
+    width: 10px;
+ 
+
+}
+
+.SidebareSectionAll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+.SidebareSectionAll::-webkit-scrollbar-thumb {
+    background: #bebbbb;
+}
+
+.SidebareSectionAll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.continuelessonsection {
+    z-index: 0;
+    padding-left: 30%;
+    padding-top: 116px;
+
+    width: 70%;
+
+
+}
+
+.widdht100 {
+    box-sizing: border-box;
+    padding-left: 0;
+    width: 100% !important;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .continuelessonsection {
+        width: 100%;
+        padding-left: 0;
+
+
+
+    }
+
+    .SidebareSectionOnmedia {
+        width: 65%;
+        display: block !important;
+    }
+
+    .SidebareSectionAll {
+        width: 65%;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {}

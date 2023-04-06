@@ -1,0 +1,155 @@
+
+.PrinsipalcontainerCertificationSection {
+    color:rgb(2, 20, 41);
+    display: table;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid rgb(255, 192, 56 ,0.5);
+    border-radius: 3px;
+    width: 90%;
+    /* width: 2rem;
+    height: 3rem !important; */
+}
+.containerCertificationSection {
+       border: 20px solid rgb(51, 36, 17);
+
+     border-image:url("../../assets/images/border.png") 30 stretch ;
+ 
+    /* width: 750px;
+    height: 563px; */
+ 
+    display: table-cell;
+    margin: 2%;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+}
+
+.ContinueCertificate{
+   margin: 1%;
+}
+
+.logoCertificationSection {
+    color: rgb(2, 20, 41);
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.logoCertificationSection .Myspanlogologl svg{
+    fill: rgb(78, 54, 2);
+    font-size: 1rem !important;
+}
+
+.marqueeCertificationSection {
+    color:rgb(2, 20, 41);
+    font-size: 2.5rem;
+ 
+    margin: auto;
+    width: 100%;
+    font-weight: 900;
+}
+.assignmentCertificationSection {
+    margin: 2rem;
+}
+.personCertificationSection {
+    font-family:Cursive;
+    border-bottom: 2px solid rgb(255, 192, 56 ,0.5);
+    font-size: 32px;
+    font-style: italic;
+    color:rgb(2, 20, 41);
+    font-weight: 900;
+    margin: 2rem auto;
+    width: 20rem;
+}
+.reasonCertificationSection {
+    margin: 1rem;
+    line-height: 1.6;
+}
+
+.reasonCertificationSection span {
+    font-weight: 700;
+}
+
+.FelxCertificationSectionButtom{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+
+.FelxCertificationSectionButtom div{
+ width: 30%;
+    
+}
+
+
+.FaSignaturecerti{
+    font-size: small;
+}
+
+.FaSignaturecertiIcon{
+    font-size: x-large;
+}
+
+.FaCertificate{
+    color: rgb(255, 192, 56 );
+    font-size: xxx-large;
+}
+
+.IdtextFaCertificate{
+    font-size: small;
+}
+
+
+.MybtnCertifictedounlowad{
+
+    display: flex;
+
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+
+    padding: 3rem;
+}
+
+
+
+.MybtnSectionMyCertificate {
+    display: inline-block;
+    border-radius: 4px;
+    color: #FFF;
+  
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    /* opacity: 0.9; */
+
+    background-color: rgb(4, 63, 109);
+  
+    text-align: center;
+    padding: 0.6em 0.4em;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    /* height: 40px; */
+    width: 20rem;
+    border-radius: 3px;
+    /* padding: 8px, 8px, 8px, 8px; */
+    vertical-align: middle;
+    margin: 2rem;
+  }
+
+
+  .MybtnSectionMyCertificate:hover {
+    /* font-size: 17px; */
+    box-shadow: 0 3px 1px -2px rgba(112, 17, 17, 0.2),
+      0 2px 2px 0 rgba(165, 108, 108, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    filter: saturate(2);
+  }
+
+

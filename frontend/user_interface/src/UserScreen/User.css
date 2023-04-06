@@ -1,0 +1,72 @@
+
+.card {
+  width: 400px;
+  height: 393px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px rgb(0 0 0 / 58%);
+}
+.app {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  background-color: rgba(16, 77, 108, 0.938);
+}
+.upper-container {
+  height: 100px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-image: linear-gradient(
+    to left,
+    rgb(16 78 108),
+    rgba(31, 144, 200, 0.829),
+    rgba(16, 77, 108, 0.206)
+  );
+}
+.image-container img {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(149px, 32px);
+}
+.img1 {
+  border: 2px solid rgba(31, 144, 200, 0.829);
+}
+.lower-container {
+  background: #fff;
+  margin-top: 60px;
+  text-align: center;
+}
+/* .lower-container h2,h4,p{
+    margin: 0%;
+    padding: 0%;
+  } */
+.lower-container h2 {
+  color: rgba(16, 77, 108);
+  font-size: 1.8rem;
+}
+.lower-container p {
+  font-size: 1.5rem;
+  padding-top: 10px;
+  text-align: center;
+}
+.userIcon {
+  padding: 53px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.userIcon button {
+  padding: 20px 20px;
+  border-radius: 12px;
+  background-color: rgba(16, 77, 108, 0.14);
+  border: none;
+}
+.userIcon button i {
+  padding-right: 0px;
+  font-size: 30px;
+  color: rgba(16, 77, 108);
+}
+

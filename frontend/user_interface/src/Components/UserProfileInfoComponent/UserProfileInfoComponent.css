@@ -1,0 +1,17 @@
+.eachUserInfo {
+  text-align: center;
+}
+.iconUserInfo {
+  font-size: 40px;
+  color: var(--primaryColor);
+  color: rgba(114, 195, 217);
+}
+.myParagInfo {
+  margin: 0 !important;
+  font-weight: bold;
+  color: var(--primaryColor);
+  color: rgba(114, 195, 217);
+}
+.userInfoLink:hover {
+  opacity: 0.6;
+}

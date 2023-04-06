@@ -1,0 +1,16 @@
+/* import "./App.css";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HomePage ,SearchCourspage} from "./Pages/index";
+import { SearchCours } from "./Components";
+function App() {
+  return <div className="App">
+
+<BrowserRouter>
+<Routes>
+<Route exact path="/" element={(<SearchCourspage />)} />
+  </Routes>
+</BrowserRouter>
+  </div>;
+}
+
+export default App; */

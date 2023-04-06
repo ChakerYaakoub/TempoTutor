@@ -1,0 +1,123 @@
+.flex-instruments{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+
+  
+  .one-instruments{
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 100%; /* default to one column */
+    position: relative;
+    
+    
+    text-align: center;
+
+ 
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .one-instruments {
+      width: 50%; /* two columns on tablets and larger screens */
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .one-instruments {
+      width: 33.33%; /* three columns on laptops and larger screens */
+    }
+  }
+  
+  .one-instruments .Mycheckboxinstruments {
+    display: none;
+    /* content: ""; */
+ 
+ 
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    width: 30px;
+    height: 30px;
+  
+  
+
+  }
+
+  .one-instruments .image-instruments {
+
+    display: block;
+    filter: grayscale(100%);
+ 
+    width: 100%;
+    height: 20rem;
+    /* filter: grayscale(100%); */
+    /* filter: invert(10%); */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+
+
+
+    
+}
+
+  
+
+
+  .one-instruments .checked {
+    border: 4px solid #4aa3c6 !important;
+    border-radius: 8px;
+    /* background-color: #cadfe7; */
+    /* filter: grayscale(100%); */
+  
+
+  }
+
+  
+  .one-instruments .checked .image-instruments {
+
+
+ 
+    filter: hue-rotate(210deg);
+
+  }
+
+  .one-instruments .checked .TitleinstrumentsDiv {
+    color: #4aa3c6;
+ 
+
+  }
+  .one-instruments  .imageinstruments-container{
+    border: 4px solid  transparent;
+
+  }
+
+  .one-instruments  .checked  .Mycheckboxinstruments {
+    display: block;
+}
+
+
+.one-instruments .TitleinstrumentsDiv{
+
+   
+ 
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    font-size:medium;
+    border-radius: 3px;
+  
+
+    z-index: 1000;
+    font-weight: bolder;
+    width: 50%;
+    background-color: aliceblue;
+
+ 
+  
+   color: rgb(91, 122, 122);
+
+}

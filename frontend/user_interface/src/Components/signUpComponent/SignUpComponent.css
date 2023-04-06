@@ -1,0 +1,51 @@
+.signUpBtn {
+  border: none;
+  outline: none;
+  padding: 0.7rem 10px;
+  color: var(--secondaryColor);
+  background-color: var(--borderBottomColorSignUpLoginForm);
+  font-size: 25px;
+  width: 100%;
+  border-radius: 5px;
+  font-variant: small-caps;
+  cursor: pointer;
+}
+.signUpBtn:hover {
+  opacity: 0.8;
+}
+.teacherOrStudentDiv {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 1.5rem;
+}
+.teacherOrStudentDiv input {
+  font-size: 40px;
+}
+.teacherOrStudentDiv label {
+  display: flex;
+  align-items: center;
+
+  margin-right: 15px;
+  font-size: 20px;
+}
+input[type="radio"] {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  margin-top: -2px;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--borderBottomColorSignUpLoginForm);
+}

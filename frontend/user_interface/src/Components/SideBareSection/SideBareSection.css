@@ -1,0 +1,150 @@
+/* .sidebarRegitser {tion-IsDone
+   
+    padding: 20px;
+    border-radius: 10px;
+    width: 240px;
+    margin-right: 40px;
+    margin-left: 60px;
+    
+  } */
+
+  /* .sidebarSection  {
+    box-shadow:  2px 0 4px rgba(0,0,0,0.4);
+
+ 
+  } */
+  
+.Section-Ready{
+  cursor: pointer;
+}
+
+.Section-IsDone{
+  cursor: pointer;
+}
+
+.Section-NotReady{
+  cursor: not-allowed;
+
+}
+  .sidebarSection .Section {
+    margin: 0.9rem 1rem;
+  
+    border-radius: 8px;
+    /* cursor: pointer; */
+    transition: background-color 0.2s ease;
+  }
+  
+  .sidebarSection .Section-title {
+    color: #c4c4c4;
+    margin-left: 1rem;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.8rem;
+    /* font-size: 1rem; */
+  }
+  
+  /* .sidebarRegitser .step:hover {
+      background-color: #e8e8e8;
+    }
+     */
+  
+  .sidebarSection .Section-number {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #fff;
+    font-weight: 600;
+  
+    align-items: center;
+    justify-content: center;
+  
+    color: #c4c4c4;
+    /* padding:  0.5rem; */
+  
+    font-weight: bold;
+    font-size: 0.9rem;
+    font-size: 1rem;
+
+    width: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+  }
+  
+  .sidebarSection .Section.Section-IsDone .Section-title {
+    color: #35af5f !important;
+  }
+  
+  .sidebarSection .Section.Section-IsDone .Section-number {
+    border-radius: 50%;
+    background: #35af5f !important;
+    color: #fff;
+  }
+
+  .sidebarSection .Section.Section-IsDone .vlSection {
+    border-color: #35af5f !important;
+  }
+
+  .sidebarSection .Section.Section-Ready .Section-title {
+    color: rgb(255, 190, 88);
+    /* rgb(255, 190, 88); */
+    /* rgb(238, 180, 71); */
+    /* rgb(151, 141, 141); */
+  }
+
+ 
+  
+  .sidebarSection .Section.Section-Ready .Section-number {
+    border-radius: 50%;
+    background:  rgb(255, 190, 88);
+    color: #fff;
+  }
+
+  .sidebarSection .Section.Section-Ready .vlSection {
+    border-color:  rgb(255, 190, 88);
+  }
+
+ 
+
+  .sidebarSection .Section-IsDoneIcon{
+    /* color: #960c0c; */
+    color: #ffbe58;
+    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
+    font-weight: bold;
+    margin-left: 5px;
+ 
+
+  }
+ 
+
+  .sidebarSection .Section-IsDoneIcon svg{
+ 
+ /* margin-top: 10px; */
+
+ /* height: 30%; */
+
+  }
+
+  .sidebarSection .Section-active{
+    background-color: #c6dbcb;
+
+    /* #E8E8E8 */
+
+    /* #c6dbcb */
+
+  }
+  
+ 
+  
+  .sidebarSection .vlSection {
+    margin-top: 0;
+    margin-bottom: -15px;
+    margin-left: 0.7rem;
+    height: 5rem;
+    border-left: 3px solid;
+    border-color: #aaaaab;
+  }
+
+  .sidebarSection .Section-IsDone{
+
+  }
+  

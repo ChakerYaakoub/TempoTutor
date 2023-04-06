@@ -1,0 +1,83 @@
+.contentUserProfile {
+  margin: 50px 3%;
+}
+
+.AlertNotaCTIVETED{
+
+  margin-top: 2rem;
+  /* text-indent: 20px; */
+  text-align: justify;
+  padding:0 1rem;
+  /* letter-spacing: 3px; */
+}
+
+.AlertNotaCTIVETED span{
+
+font-weight: 900;
+color: rgb(255, 0, 0);
+  /* letter-spacing: 3px; */
+}
+
+.AlertNotaCTIVETED svg{
+
+font-size: 16px;
+/* position: absolute;
+left: 4%;
+top: 25%; */
+    /* letter-spacing: 3px; */
+  }
+
+  .AlertNotaCTIVETED p{
+
+  font-size: large;
+  font-weight: 700;
+  /* padding-left: 1%; */
+
+      }
+.imgFirstNameLastNameUser {
+  display: flex;
+  align-items: center;
+}
+.userProfileImage {
+  display: flex;
+  align-items: center;
+  font-size: 90px;
+  color: var(--primaryColor);
+  color: rgb(211, 211, 211);
+}
+.userFirstNameLastName {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.personalProfileDivContent {
+  margin-top: 50px !important;
+  font-size: 16px;
+}
+.personalProfileDivContent p:first-of-type {
+  font-weight: 600;
+}
+.personalProfileDivContent p:last-of-type {
+  max-width: 80%;
+}
+.contentUserInfoDiv {
+  display: flex;
+  justify-content: center;
+}
+.userInfoDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  width: 70%;
+}
+ /*PROFIEL TEACHER*/
+ .teacherInfoDiv{
+  display: flex;
+  margin-top: 59px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.teacherInfoDiv div {
+width: 20%;
+}

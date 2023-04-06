@@ -1,0 +1,311 @@
+.backround{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
+  .header{
+    text-align:center;
+    position: relative;
+    padding:40px 0px 0px 0px;
+    border-bottom: 8px solid  rgba(25, 115, 160);
+  }
+  .header h2{
+    color:  rgba(25, 115, 160);
+    font-size: 27px;
+    margin-bottom: -33px;
+  }
+  .header p{
+    font-size: 20px;
+    padding: 0px 232px;
+    color: white;
+    margin-top: -22px;
+  }
+  .header h1{
+    font-size: 37px;
+    color: white;
+    padding: 22px 188px;
+  }
+  .subscribe{
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 11px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid;
+  }
+  .flex{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .minute , .section{
+    font-size: 18px;
+    color: #fff;
+    padding-right: 100px;
+  }
+
+  .about{
+    display: flex;
+    justify-content: center
+  }
+  .paragrapheContent{
+    font-size: 22px;
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-right:80px;
+    text-align: justify;
+  }
+  .paragrapheContent p{
+    padding-bottom: 32px;
+    font-size: 20px;
+  }
+  .paragrapheContent h2{
+    font-size: 31px;
+  }
+  .paragrapheContent span{
+    color: rgba(25, 115, 160);
+    font-weight: 600;
+  }
+  .gitarImg{
+    padding-top: 104px;
+    padding-right: 40px;
+   
+  }
+  .gitarImg img{
+    width:350px;
+    height:350px;
+    border-radius: 30px;
+
+  }
+  .teach{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 7px;
+    margin: 0px 40px;
+  }
+  hr{
+    margin-top: 30px;
+    width: 50%;
+    color: rgba(25, 115, 160);
+  }
+  .picP{
+    padding-right: 20px;
+    padding-top: 25px;
+  }
+  .picP img{
+    border-radius: 10%;
+  }
+  .news{
+    padding: 0px 18px;
+    padding-top: 14px;
+    border-radius: 22px;
+   
+  }
+  .news h3{
+   padding-left: 6px;
+  }
+  .news h4{
+    margin-bottom: -10px;
+    margin-top: -14px;
+  }
+  .news p{
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-left: 4px;
+  }
+  .tableCourse{
+    padding-bottom: 30px;
+    background-color: rgba(16, 77, 108, 0.084);
+  }
+  .tableCourse h1{
+    padding-top: 48px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+  }
+  .SectionName{
+    display: flex;
+    padding: 0px 29px;
+    justify-content: space-between;
+  }
+  .SectionName div{
+    margin-top: 10px;
+  }
+  .SectionName p{
+    font-size: 18px;
+  }
+  .content33{
+    border: 1px solid rgba(0, 0, 0, 0.536);
+    width: 50%;
+    margin-left: 25%;
+  }
+  .hr{
+    width: 96%;
+    margin-top: 0px;
+  }
+  
+  .bar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .video{
+    padding: 59px 93px;
+  }
+  .videoPlay{
+    width:100%;
+    height:30rem;
+  }
+
+  .start span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .start{
+    margin-top: 46px;
+    height: 44px;
+    width: 80px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-style: normal;
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    border-radius: 3px;
+    padding: 8px, 16px, 8px, 16px;
+    vertical-align: middle;
+  }
+
+  .start span:before {
+    content: "\21E8";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0px;
+  }
+  .start:hover span {
+    padding-right: 50px;
+  }
+
+  .start:hover span:before {
+    opacity: 1;
+    right: 0;
+  }
+
+  .start {
+    background:  rgba(25, 115, 160);
+    color: white;
+  }
+
+  @media(max-width:1000px){
+    .header h1{
+      font-size: 30px;
+      padding: 0px 97px;
+    }
+    .header p{
+      font-size: 20px;
+      padding: 0px 100px;
+    }
+    .subscribe {
+      font-size: 18px;
+    }
+    .minute, .section {
+      padding-right: 30px;
+  }
+  .gitarImg{
+    padding-top: 115px;
+  }
+  .gitarImg img{
+   width: 250px !important;
+   height: 250px;
+  }
+  .paragrapheContent {
+    font-size: 18px;
+    padding-top: 39px;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+.start {
+  margin-top: 27px;
+  width: 18%;
+}
+
+.SectionName {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.SectionName div {
+  margin-top: 0px;
+}
+.khat h2{
+  font-size: 18px;
+}
+.news p{
+  font-size: 18px;
+  text-align: justify;
+}
+.teach{
+  padding-left: 0px;
+  padding-right: 0px
+}
+  }
+  @media(max-width:900px){
+    .teach{
+      flex-direction: column;
+    }
+    .about{
+      flex-direction: column;
+    }
+    .gitarImg{
+      display: none;
+      padding-top: 20px;
+      padding-left: 100px;
+    }
+    .paragrapheContent p{
+      padding-left: 40px;
+      padding-bottom: 20px;
+    }
+    .picP img {
+      margin-left: 84px;
+   }
+  .header p {
+    font-size: 18px;
+    padding: 0px 29px;
+    text-align: justify;
+  }
+  .header h1 {
+    padding: 17px 1px;
+    font-size: 24px;
+  }
+  .header h2{
+    font-size: 10px;
+    padding-bottom: 20px;
+  }
+  .content33{
+    width: 70%;
+    margin-left: 17%;
+  }
+  .start{
+    width: 18%;
+  }
+  }

@@ -1,0 +1,115 @@
+.HeaderRegTeashers1 {
+  margin-bottom: 1rem;
+}
+
+.HeaderRegTeashers2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.hiddendivRes {
+  display: none;
+  text-align: center;
+  margin: auto;
+}
+
+.LetsKnow {
+  font-weight: 800;
+  color: #393b3f;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.notee {
+  font-size: 14px;
+  color: #61666e;
+  text-align: center;
+}
+
+.MyMybutton {
+  display: inline-block;
+  border-radius: 4px;
+
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+
+  text-align: center;
+  padding: 0 1.5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  height: 40px;
+  width: 150px;
+  border-radius: 3px;
+  padding: 8px, 16px, 8px, 16px;
+  vertical-align: middle;
+  margin: 2rem;
+}
+
+.MyMybutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.Backbutton {
+  background: linear-gradient(
+      180deg,
+      hsla(0, 0%, 97.6%, 0),
+      hsla(0, 0%, 97.6%, 0.155) 31.25%,
+      hsla(0, 0%, 97.6%, 0.5)
+    ),
+    linear-gradient(0deg, #fff, #fff);
+  /* background: white; */
+  color: #393b3f;
+}
+.Nextbutton {
+  background: #4aa3c6;
+  color: white;
+}
+
+.Backbutton span:before {
+  content: "\21E6";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0px;
+  transition: 0.5s;
+}
+.Nextbutton span:before {
+  content: "\21E8";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0px;
+}
+
+.Backbutton:hover span {
+  padding-left: 25px;
+}
+
+.Nextbutton:hover span {
+  padding-right: 100px;
+}
+
+.Backbutton:hover span:before {
+  opacity: 1;
+  left: 0;
+}
+
+.Nextbutton:hover span:before {
+  opacity: 1;
+  right: 0;
+}
+
+@media (max-width: 720px) {
+  .hiddendivRes {
+    display: block;
+  }
+  .NotHidDiv {
+    display: none;
+  }
+}

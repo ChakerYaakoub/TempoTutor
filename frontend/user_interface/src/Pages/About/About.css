@@ -1,0 +1,64 @@
+.mymyFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.mymySecondDiv{
+    padding: 5px 20px;
+}
+.mymyDivAndParaghraphe , .mymysecondTxt{
+    padding: 10px 10px;
+}
+.mymyDivAndParaghraphe .myBigTxt , .mysecondBigText{
+    text-align: justify;
+    font-size: 18px;
+}
+.MyBigImg{
+    width: 100%;
+    height: 100%;
+}
+.mymyImg{
+   width: 100%;
+   height: 400px;
+}
+.mymyDivWithBoxShdow{
+    padding: 30px 20px;
+}
+.myContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 12px -3px rgb(104, 103, 103)
+}
+.myFirstImg{
+    width: 220px;
+    border-radius: 11px;
+    height: 250px;
+}
+.mySecondImg{
+display: none;
+}
+.myName{
+ text-align: center;
+ font-size: 22px;
+ font-weight: 700;
+}
+@media(max-width:800px){
+    .myContent{
+        flex-direction:column;
+        align-content: center;
+        align-items: center;
+    }
+    .myFirstImg{
+    display: none;
+    }
+    .mySecondImg{
+    display: block;
+    width: 250px;
+    border-radius: 11px;
+    height: 200px;
+    }
+}

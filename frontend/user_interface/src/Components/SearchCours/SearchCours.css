@@ -1,0 +1,327 @@
+/* .searchPage {
+ 
+} */
+.chosenCourse {
+  color: red !important;
+}
+.titleSearch {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.divSearch {
+  text-align: center;
+}
+
+.favoriteIcon {
+  position: absolute;
+  top: 1.5%;
+  right: 2%;
+  z-index: 1;
+  color: var(--secondaryColor);
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.SearchInputs {
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid #343434;
+  padding: 0.5rem 1rem;
+  margin-bottom: 6px;
+  background: transparent;
+  /* transition: all 0.1s; */
+  border: 0px solid transparent;
+  border-bottom: 1px solid #343434;
+  box-shadow: none;
+  border-radius: 0;
+  outline: none;
+  font-size: 1.2em;
+  width: 100%;
+  height: 3rem;
+  width: 50%;
+}
+
+.SearchInputs:focus {
+  border-color: #72c3d9;
+}
+
+.mysearch__topics {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 1% 15%;
+}
+
+.mytag {
+  display: block;
+  position: relative;
+  padding: 0.3rem 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1.5rem;
+  z-index: 0;
+  padding-top: 0.15rem;
+  letter-spacing: 0.025rem;
+  font-size: 1rem;
+  background-color: rgba(114, 195, 217);
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  /* background-color: #72C3D9; */
+  border-color: #72c3d9;
+
+  line-height: 20px;
+  letter-spacing: 0.04rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  border-radius: 30px;
+}
+
+.mysearch__topic {
+  display: inline-block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.mysearch__topics-title {
+  display: inline-block;
+  padding-right: 1em;
+  font-size: 1em;
+}
+
+.SearchDataFind {
+  margin-top: 4rem;
+}
+.ResultSearch {
+  text-align: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.ResultSearch button {
+  background: none;
+  border: none;
+  color: #72c3d9;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.HrSearch {
+  border-top: "1px solid #eeeeee";
+}
+.totalV span svg {
+  font-size: medium;
+}
+
+/* cours divs  */
+
+.flex-MyCours {
+  display: flex;
+  /* transition:  wrap 2s; */
+  flex-wrap: wrap;
+  padding-left: 6.8rem;
+  margin: auto;
+  box-sizing: border-box;
+ 
+
+  
+}
+
+.flex-MyCours .MyCour {
+  background-color: #f1f1f1;
+  width: 16rem;
+
+  margin: 10px;
+  /* background: rgba(0,0,0,0.3); */
+
+  /* text-align: center; */
+
+  font-size: 30px;
+  position: relative;
+}
+
+.showDefault {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+
+  overflow: hidden;
+  width: 100%;
+  height: 70%;
+  transition: 0.5s ease;
+}
+
+.showDefault .titleCours {
+  padding-left: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  /* width: 95%; */
+  height: 51%;
+  line-height: 1.25em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+  padding-right: 2px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.showDefault .chowAfter .descriptionCours {
+  padding-left: 1rem;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  font-weight: 400;
+  line-height: 1.25em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+  padding-right: 2px;
+}
+
+.showDefault .teacherCours {
+  padding-left: 1rem;
+
+  font-weight: 300;
+  line-height: 0.5rem;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+}
+
+.showDefault .PriceCours {
+  padding: 10px 0;
+
+  background-color: rgba(114, 195, 217);
+
+  font-size: 1.2rem;
+  font-weight: 400;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.showDefault .PriceCours .totalV {
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.showDefault .PriceCours .price {
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.flex-MyCours .MyCour:hover .showDefault {
+  height: 100%;
+  background-color: rgba(114, 195, 217, 0.7);
+  /* rgba(16, 78, 108, 0.5); */
+  /* (83,144,175) */
+  /* 5390af */
+
+  /* rgba(114, 195, 217, 0.6); */
+}
+
+.flex-MyCours .MyCour:hover .showDefault .PriceCours {
+  display: none;
+}
+
+.flex-MyCours .MyCour:hover .showDefault .titleCours {
+  margin-top: 2em;
+  height: 38%;
+  margin-bottom: 0.5em;
+}
+
+.flex-MyCours .MyCour:hover .showDefault .teacherCours {
+  display: none;
+}
+
+.Mycourseimage {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  /* filter: brightness(0.50); */
+  /* filter :  brightness(0.50) grayscale(100%) ; */ 
+
+  filter: brightness(0.30)   hue-rotate(180deg);
+
+  /* filter: brightness(0.30) contrast(100%) hue-rotate(180deg); */
+  /* filter: brightness(0.30) contrast(100%) hue-rotate(180deg) saturate(3); */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.MyDesc p {
+  margin: 0;
+}
+.PreviewAllCorse{
+  margin: 1rem 0 ;
+}
+
+/* Preview Button CSS */
+.PreviewAllCorse .MypreviewButton {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  background-color:   #f1f7f8;
+  /* color: white; */
+  /* font-size: 14px; */
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Show Less Button CSS */
+.PreviewAllCorse .MyshowLessButton {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  background-color:   #f1f7f8;
+  /* color: white; */
+  /* font-size: 14px; */
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 720px) {
+  .SearchInputs {
+    width: 90%;
+  }
+}
+
+@media (max-width: 720px) {
+  .mysearch__topics {
+    margin: 1% 3%;
+  }
+
+  .flex-MyCours {
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .flex-MyCours {
+    padding-left: 9rem;
+  }
+}
+
+@media (max-width: 660px) {
+  .flex-MyCours {
+    padding-left: 0;
+
+    justify-content: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .SearchInputs {
+    width: 90%;
+  }
+}

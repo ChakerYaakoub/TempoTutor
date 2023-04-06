@@ -1,0 +1,14 @@
+.MyerrorPage{
+    width: 70%;
+    margin: auto;
+   
+}
+
+.MyerrorPage .ErrImage{
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    /* filter: opacity(50%); */
+    filter: contrast(100%);
+
+}

@@ -1,0 +1,70 @@
+/* .sidebarRegitser {
+   
+    padding: 20px;
+    border-radius: 10px;
+    width: 240px;
+    margin-right: 40px;
+    margin-left: 60px;
+    
+  } */
+
+.sidebarRegitser .step {
+  margin: 10px 0;
+
+  border-radius: 8px;
+  /* cursor: pointer; */
+  transition: background-color 0.2s ease;
+}
+
+.sidebarRegitser .step-title {
+  color: #c4c4c4;
+  margin-left: 40px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* .sidebarRegitser .step:hover {
+    background-color: #e8e8e8;
+  }
+   */
+
+.sidebarRegitser .step-number {
+  display: inline-block;
+  background-color: #fff;
+  font-weight: 600;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #c4c4c4;
+  padding: 10px;
+
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.sidebarRegitser .step.active .step-title {
+  color: #050505;
+}
+
+.sidebarRegitser .step.active .step-number {
+  border-radius: 3%;
+  background: #000;
+  color: #fff;
+}
+
+.sidebarRegitser .step.active .vl {
+  border-color: #000;
+}
+
+.sidebarRegitser .vl {
+  margin-top: 0;
+  margin-bottom: -15px;
+  margin-left: 18px;
+  height: 90px;
+  border-left: 3px solid;
+  border-color: #aaaaab;
+}

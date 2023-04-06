@@ -1,0 +1,10 @@
+.MyfavoriteCourses {
+  display: flex;
+  justify-content: center;
+  padding-right: 6.8rem;
+  margin-top: 8rem;
+}
+
+.favoriteIcon{
+  cursor: pointer;
+}

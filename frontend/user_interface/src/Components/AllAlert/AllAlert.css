@@ -1,0 +1,97 @@
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap'); */
+
+/* @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css); */
+/* Alert styles */
+.Myalert .MyalertPP {
+  margin: 0 !important;
+  padding: 0 !important;
+  /* font-family: Quicksand !important; */
+  font-weight: 500;
+  color: rgb(17, 16, 16);
+}
+
+.Myalert {
+  margin: 20px auto;
+  padding: 30px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 5px #ccc;
+  animation: slideIn 0.5s forwards, slideOut 0.5s forwards 3.5s;
+}
+.MyMyclose {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  opacity: 0.9;
+  border-width: 1px;
+  /* border-style: solid; */
+  /* border-radius: 50%; */
+  right: 15px;
+  top: 30%;
+  font-weight: 900;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 1.6em;
+  cursor: pointer;
+ 
+}
+
+
+.simple-alert {
+  background-color: #ebebeb;
+  border-left: 5px solid #9e9e9e;
+}
+
+.simple-alert .MyMyclose {
+  border-color: #9e9e9e;
+  color: #9e9e9e;
+}
+
+.success-alert {
+  background-color: #a8f0c6;
+  border-left: 5px solid #72c8a3;
+}
+
+.success-alert .MyMyclose {
+  border-color: #72c8a3;
+  color: #72c8a3;
+}
+
+.danger-alert {
+  background-color: #f7a7a3;
+  border-left: 5px solid #dc6f67;
+}
+
+.danger-alert .MyMyclose {
+  border-color: #dc6f67;
+  color: #dc6f67;
+}
+
+.warning-alert {
+  background-color: #ffd48a;
+  border-left: 5px solid #f3a246;
+}
+
+.warning-alert .close {
+  border-color: #f3a246;
+  color: #f3a246;
+}
+
+/* Animation styles */
+/* @keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+} */

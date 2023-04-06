@@ -1,0 +1,16 @@
+.addToCartIcon {
+  position: absolute;
+  top: 1.5%;
+  left: 2%;
+  z-index: 1;
+  color: var(--secondaryColor);
+  font-size: 23px;
+  cursor: pointer;
+}
+.addToCartIcon:hover {
+  opacity: 0.5;
+}
+
+.addToCartIconcur{
+  cursor: pointer;
+}

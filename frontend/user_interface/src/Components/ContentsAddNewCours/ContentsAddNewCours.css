@@ -1,0 +1,38 @@
+.Mycontent-formsAddCours {
+  background-color: white;
+
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px,
+    rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+}
+
+/* from herer  */
+
+.Mycontent-formsAddCours {
+  flex: 1;
+  /* padding:  20px 0; */
+}
+
+.Mycontent-formsAddCours .MyitemForm-contentAddCours {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.MyitemFormAddCours {
+  display: none;
+}
+
+.MyitemFormAddCours.active {
+  display: block;
+}
+
+/* .MyitemForm-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  } */
+
+.MyitemForm-contentAddCours {
+  padding-top: 1rem;
+}

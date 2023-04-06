@@ -1,0 +1,15 @@
+.advice {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: calc(var(--marginBottomBetweenSection) / 2);
+}
+@media (min-width: 700px) and (max-width: 900px) {
+  .advice {
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  .advice {
+    flex-direction: column;
+  }
+}

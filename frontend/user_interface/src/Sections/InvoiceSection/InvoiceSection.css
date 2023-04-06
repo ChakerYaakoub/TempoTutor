@@ -1,0 +1,36 @@
+.InvoiceSectionFirstDiv {
+  margin: 3rem;
+}
+
+.InvoiceSectionFirstDiv .pInvoice {
+
+  font-size: large;
+}
+.InvoiceSectionFirstDiv .pInvoice span {
+
+font-weight: 900;
+}
+
+.InvoiceSection {
+  width: 70%;
+  margin: auto;
+}
+
+.SectionChadowInvois {
+  /* -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+@media (max-width: 768px) {
+  .InvoiceSection {
+    width: 100%;
+  }
+  .InvoiceSectionFirstDiv {
+  margin: 0.5rem;
+}
+}

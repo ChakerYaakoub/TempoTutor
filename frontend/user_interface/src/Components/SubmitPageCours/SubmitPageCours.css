@@ -1,0 +1,37 @@
+.SubmitCoursDIv {
+  margin: 1rem;
+  padding-bottom: 2rem;
+}
+
+.SubmitCoursText {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 3rem;
+}
+
+.BolDTextCoursMy {
+  font-weight: 600;
+}
+.MydivBtnSubmitCourse {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.backTOInfo {
+  margin: 0 !important;
+}
+
+.AddNewCoursForm1 .DivCours1 {
+  /* width: 50%; */
+
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.AddNewCoursForm1 {
+  /* display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box; */
+  margin: 1rem 3 rem;
+}

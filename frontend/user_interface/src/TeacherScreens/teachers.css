@@ -1,0 +1,549 @@
+.container22{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.container2{
+  display: flex;
+  width: 143%;
+  padding-top: 17px;
+  justify-content: flex-end;
+}
+.search-box:hover{
+  box-shadow: 0px 1px 6px 0px rgba(25, 115, 160);
+  border: rgb(31, 141, 196);
+}
+.Instrement{
+  border: none;
+  background-color: white;
+  font-size: 23px;
+  padding-top: 32px;
+  width: 45%;
+  outline: none;
+}
+.Instrement i{
+  padding-left: 8px;
+}
+.NotVisible{
+  display: none;
+}
+
+.search-box{
+  width: 50%;
+  border: none;
+  box-shadow: 0px 1px 4px -1px rgb(0 0 0);
+  border-radius: 25px;
+  margin-top: 10px;
+  height: 83%;
+  margin-right: 48px;
+}
+.search-box i {
+  width: 6%;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 15px;
+  color: black;
+  font-size: 17px;
+}
+.search{
+  display: none;
+}
+.search-box input {
+  width: 66%;
+  /* padding: 14px; */
+  padding-top: 2px;
+  border: none;
+  outline: none;
+}
+.mymySearch{
+  color: #000000ad;
+  padding-left: 15px;
+  font-size: 16px;
+  border: none;
+  height: 60%;
+  /* color: #0000008c; */
+  background: white;
+  border-left: 1px solid #00000042;
+  cursor: pointer;
+}
+::placeholder {
+  font-size: 18px;
+  color: #000000ad;
+}
+.filter{
+  border:none;
+  background-color:  rgba(25, 115, 160);
+  color:white;
+  font-size: 18px;
+  border-radius: 10px;
+  padding:10px 21px;
+}
+.filter i{
+  padding-left: 10px;
+  color: white;
+}
+.filter1{
+  margin-right: 48px;
+  padding-top: 16px;
+}
+.close{
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-right: 60px;
+  
+  border-radius: 10px;
+  padding: 0px 12px;
+}
+.close i{
+  color: rgba(25, 115, 160);
+}
+.close span{
+  padding-left:4px;
+  font-size: 22px;
+}
+
+.content{
+  background-image: url(../../public/images/bg-blue-piano.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 25px 20px;
+  border-radius: 5px;
+}
+.content1{
+  color: white;
+  font-size: 19px;
+  padding-left: 20px;
+}
+ .content2{
+  padding-top: 30px;
+  padding-right: 20px;
+ }
+ .content2 button{
+  border:none;
+  color: #282c34e8;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+ }
+
+.bady{
+ background-color: rgba(218, 215, 215, 0.458);
+}
+.teacherInfo{
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  border:none;
+  height: 20rem;
+  padding-bottom: 48px;
+  margin: 30px 24px;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 13px 4px 11px 0px rgb(0 0 0 / 58%)
+}
+.all{
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+.materiel span{
+  padding-right: 29px;
+  font-size: 22px;
+  color: rgba(25, 115, 160);;
+}
+.materiel i{
+  padding-right: 5px;
+  font-size: 18px;
+}
+.description{
+  max-height: 8rem;
+  overflow: auto;
+  font-size: 20px;
+  padding: 20px 2px;
+}
+.button .button1{
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color:  rgba(25, 115, 160);
+  border: none;
+  border-radius: 11px;
+  color: white;
+}
+.button2{
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 11px;
+  border: 2px solid rgba(25, 115, 160);
+  color: rgba(25, 115, 160);
+  margin-left: 20px;
+  
+  background-color: white;
+}
+.button{
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+.imge img{
+  width: 100%;
+  height: 100%;
+}
+.imge{
+  padding-top: 20px;
+  width: 250px;
+  height: 250px;
+
+}
+.Information{
+  display: flex;
+  justify-content:space-between;
+}
+.Information h1{
+  font-size: 30px;
+}
+
+
+.dropdown {
+  position: relative;
+}
+  
+.menu {
+  position: absolute;
+  list-style-type: none;
+  margin: 25px -91px;
+  background:rgb(31, 141, 196);
+  z-index: 5;
+  left: -163px;
+  top: 58px;
+  overflow: auto;
+  max-height: calc(100vh - 410px);
+}
+
+
+.menu > li {
+margin: 0;
+background-color: rgba(25, 115, 160);
+padding: 4px 40px;
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+}
+
+.menu > li:hover {
+background-color:  rgba(25, 115, 160, 0.295);
+}
+
+.menu > li > button {
+width: 100%;
+height: 100%;
+text-align: left;
+color: inherit;
+border: none;
+background: none;
+padding: 5px;
+margin: 0;
+font: inherit;
+cursor: pointer;
+}
+
+@media(max-width:600px){
+.img img{
+  padding-top: 0px;
+}
+}
+
+@media(max-width:770px){
+.teacherInfo{
+  flex-direction: column;
+}
+.img{
+  width: 100px;
+  height: 100px;
+}
+
+/*linear-gradient( to right, rgb(3 32 58), rgb(16, 78, 108), rgb(1 65 92), rgb(45 70 82), rgb(53 115 147), rgb(5 17 44 / 93%), rgb(16, 78, 108) );*/
+.all{
+  padding-left: 0px;
+}
+.content1 p{
+  padding-top: 10px;
+  text-align: justify;
+  padding-right: 27px;
+}
+.content2{
+  padding: 7px 0px 0px 0px;
+}
+}
+@media(max-width:843px){
+  .NotVisible{
+    display: block;
+    padding-top: 37px;
+    padding-left: 15px;
+    font-size: 27px;
+  }
+  .Instrement{
+    display: none;
+  }
+  .content h3{
+    margin-top: 1px;
+    margin-bottom: -14px;
+  }
+  .content1{
+    margin-left: -14px;
+  }
+
+
+}
+@media(max-width:1073px){
+  .search{
+    display: block;
+    padding-top: 20px;
+    margin-right: 23px;
+    font-size: 30px;
+  }
+
+  .search-box{
+    display: none;
+  }
+  .search-box i{
+    font-size: 25px;
+  }
+  .content1{
+    margin-left: -23px;
+    margin-top: -22px;
+  }
+}
+
+
+@media(max-width:950px){
+  .content1{
+    margin-left: -23px;
+    margin-top: -18px;
+  }
+}
+@media(max-width:710px){
+  .search{
+    font-size: 25px;
+  }
+
+  .filter{
+    margin-top: 5px;
+    padding: 5px 10px;
+  }
+  .close{
+    margin-right: 5px;
+  }
+ .close span {
+  padding-left: 0px;
+  font-size: 19px;
+ }
+ .content{
+  margin-top: 10px;
+  background-repeat: repeat;
+ }
+ .content h3{
+  margin-top: 23px;
+  margin-bottom: -25px;
+}
+.content1{
+  margin-left: -14px;
+}
+}
+@media(max-width:800px){
+  .teacherInfo{
+    height: 100%;
+  }
+  .button{
+    padding-bottom: 0px;
+  }
+}
+
+.profiel .picture img{
+  width:37%;
+}
+.picutreProfiel{
+  width: 96%;
+}
+
+/* .profiel .picture{
+text-align: center;
+} */
+
+.picture .paragraphe{
+font-size: 41px;
+font-weight: 600;
+}
+.picture span{
+color:rgba(25, 115, 160);
+}
+
+.AllProfile{
+background-color: #fff;
+box-shadow: rgb(0 0 0 / 50%) 0px 3px 1px -2px,
+rgb(0 0 0 / 50%) 0px 2px 2px 0px, rgb(0 0 0 / 50%) 0px 1px 5px 0px;
+border-radius: 20px;
+padding: 3px 10px;
+padding-bottom: 40px;
+
+}
+
+.containerProfiel{
+  padding: 0px 80px;
+  padding-bottom: 40px;
+  /* background-color: rgba(16, 77, 108); */
+}
+.profiel{
+  display: flex;
+
+}
+.profielInfo{
+  padding-top: 22px;
+}
+.profielInfo .paragraphe{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.paragraphe span{
+  color:rgba(25, 115, 160);
+}
+.info{
+  font-size: 20px;
+  padding-left: 3px
+}
+h3{
+  font-size: 22px;
+}
+.info i{
+  color:rgba(25, 115, 160);
+  padding-right: 10px;
+}
+.background{
+  font-size: 20px;
+}
+.myBack{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.picture{
+  width: 60%;
+  height: 50%;
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+.picture img{
+  height: 250px;
+  border-radius: 5px;
+}
+.picture button{
+  margin-top: 15px;
+  width: 233px;
+  height: 45px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-image: linear-gradient(to right,rgb(16 78 108), rgba(25, 115, 160))
+}
+.star{
+  display: flex;
+  padding-top: 21px;
+  padding-left: 46px;
+}
+.star i{
+  padding-right: 17px;
+  color: rgba(25, 115, 160);
+}
+.mymyProfielForTecher{
+  width: 480px;
+}
+.mymyProfielForTecher img{
+  width: 100%;
+}
+@media(max-width: 999px){
+.profiel{
+ display: flex;
+ flex-direction: column;
+}
+.profielInfo{
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.picture{
+  padding-top: 15px;
+  padding-left:50px;
+}
+
+.picture button{
+  width: 221px;
+  height: 50px;
+  font-size: 14px;
+  margin-top:20px;
+}
+.star{
+ display: none;
+}
+.mymyProfielForTecher{
+  width: 400px;
+}
+.mymyProfielForTecher img{
+  width: 100%;
+}
+
+
+}
+@media (max-width:700px) {
+  .mymyProfielForTecher{
+    width: 400px;
+  }
+  .mymyProfielForTecher img{
+    width: 100%;
+  }
+
+  .myBack{
+    padding-left: 2px;
+  }
+  .background{
+    text-align: justify;
+  }
+  .picture{
+    padding-left: 0px;
+  }
+  .profiel .picture img {
+    width: 147%;
+}
+
+
+}
+.backgroundDetails{
+  padding: 30px 20px;
+  padding-bottom: 2px;
+}
+/*--------------------------------------------------------------------*/
+.Result{
+  text-align: center;
+  padding-bottom: 13px
+}
+.Result button {
+  background: none;
+  border: none;
+  color: #72c3d9;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+  

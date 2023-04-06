@@ -1,0 +1,44 @@
+.mymysouzanVidePlayDiv{
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    /* padding-left:30%; */
+    
+}
+
+.SectionCourseDivAllCourse{
+    margin: 2rem 0rem ;
+
+    
+}
+
+.mymysouzanVidePlayDiv p {
+    font-size: large;
+    font-weight: bold;
+    padding: 1rem;
+}
+.mymysouzanVidePlay{
+    /* height: 50%; */
+    width: 90%;
+    margin: auto;
+}
+
+.mymychakerLastAndFirstName{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Titlecourse123{
+    font-size: large;
+    font-weight: bold;
+}
+
+.PPPChakerCourse{
+    font-size: large !important;
+}
+
+.PPPChakerCourse span{
+   color: rgb(0, 102, 255);
+   text-decoration: underline;
+}

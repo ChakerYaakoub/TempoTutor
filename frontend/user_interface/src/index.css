@@ -1,0 +1,35 @@
+:root {
+  /* --primaryColor: rgb(177, 212, 224); */
+  --distance-primary: 50px;
+  --primaryColor: rgb(16, 78, 108);
+  /* --primaryColor: #8fc5e1; */
+  /* --primaryColor: rgba(114, 195, 217); */
+  --secondaryColor: #ffff;
+  --primaryPadding: 40px;
+  --paddingButton: 12px;
+  --fontSizeBtn: 16px;
+  --borderRadiusBtn: 10px;
+  --marginBottomBetweenSection: 100px;
+  --marginBottomBetweenSectionOnSmallScreen: 60px;
+  --heightNavBar: 60px;
+  --border-radius-inp-reg: 5px;
+  --borderBottomColorSignUpLoginForm: #5390af;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
+body {
+  overflow-x: hidden;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}

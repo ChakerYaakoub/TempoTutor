@@ -1,0 +1,58 @@
+.containeRegisterDiv {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(16, 78, 108, 0.7);
+}
+.mySignUpLoginForm {
+  position: fixed;
+  top: 9%;
+  background-color: rgba(133, 184, 209, 1);
+  border-radius: 15px;
+  padding: 3rem 20px;
+}
+.SignUpOrLoginDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+
+  border-bottom: 1px solid var(--secondaryColor);
+}
+.SignUpOrLoginDiv div {
+  margin-right: 25px;
+  font-size: 25px;
+  color: var(--secondaryColor);
+  cursor: pointer;
+  height: 4rem;
+}
+.SignUpOrLoginDiv div:first-child {
+  border-bottom: 4px solid var(--borderBottomColorSignUpLoginForm);
+}
+.setColorBorderBottomSignUp {
+  border-bottom: 4px solid var(--borderBottomColorSignUpLoginForm) !important;
+}
+.removeborderBottomColor {
+  border-bottom: none !important;
+  border-bottom: 4px solid transparent !important;
+}
+.openingClosingSignUpLogin {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  color: var(--secondaryColor);
+  color: var(--primaryColor);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.openingClosingSignUpLogin:hover {
+  color: var(--secondaryColor);
+}

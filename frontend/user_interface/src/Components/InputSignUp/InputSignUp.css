@@ -1,0 +1,46 @@
+.signUpInp {
+  background-color: var(--secondaryColor);
+  border: none;
+  outline: none;
+  width: 300px;
+  border-radius: var(--border-radius-inp-reg);
+  padding: 0.6rem 10px;
+  font-size: 13px;
+}
+.signUpInp::placeholder {
+  font-size: 15px;
+}
+.errorMessage {
+  font-size: 12px;
+  padding: 0.1rem;
+  color: red;
+  display: none;
+}
+.cont-Inp-errMsg {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.signUpInp:invalid[focused="true"] ~ span {
+  display: block;
+}
+.signUpInp:invalid[focused="true"] {
+  border-bottom: 1px solid red;
+}
+.errorMessageFromBackend {
+  font-size: 13px;
+  padding: 0.1rem;
+  color: red;
+}
+@media (max-width: 500px) {
+  .signUpInp {
+    width: 300px !important;
+    padding: 12px 10px;
+  }
+  .cont-Inp-errMsg {
+    margin-bottom: 15px;
+  }
+  .signUpInp::placeholder {
+    font-size: 14px;
+  }
+}

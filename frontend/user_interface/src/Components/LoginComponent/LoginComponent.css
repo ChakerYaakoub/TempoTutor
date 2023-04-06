@@ -1,0 +1,15 @@
+.loginBtn {
+  border: none;
+  outline: none;
+  padding: 7px 10px;
+  color: var(--secondaryColor);
+  background-color: var(--borderBottomColorSignUpLoginForm);
+  font-size: 25px;
+  width: 100%;
+  border-radius: 5px;
+  font-variant: small-caps;
+  cursor: pointer;
+}
+.loginBtn:hover {
+  opacity: 0.8;
+}

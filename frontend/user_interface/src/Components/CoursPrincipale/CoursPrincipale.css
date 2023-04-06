@@ -1,0 +1,41 @@
+.felxFavoritesCart{
+    display: flex;
+}
+
+.minute i {
+    color: white;
+}
+.section i{
+    color: white;
+
+}
+
+.felxFavoritesCart1{
+    font-size: 25px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.felxFavoritesCart1:hover{
+ 
+color: rgb(255, 185, 249);
+}
+
+.PREMIUMCOURSEDiv{
+    height: 4rem;
+    text-align: center;
+}
+
+.PREMIUMCOURSEDiv p{
+    font-size: x-large;
+    color: rgb(219, 36, 36);
+    font-weight: 600;
+  
+}
+.PREMIUMCOURSEDiv p span{
+    font-size: xx-large;
+    color: rgb(28, 219, 219);
+    border-bottom: 1px solid aqua;
+    padding-left: 2px;
+  
+}

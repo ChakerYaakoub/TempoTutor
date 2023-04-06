@@ -1,0 +1,49 @@
+.userTestiomnials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.userTestiomnials > div:first-of-type {
+  position: relative;
+  border-radius: 15px;
+  background-color: var(--secondaryColor);
+  padding: calc(var(--primaryPadding) / 2);
+  margin-bottom: 10px;
+}
+.userTestiomnials > div:first-of-type::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: var(--secondaryColor) transparent transparent transparent;
+}
+.userDivImg {
+  display: flex;
+  align-items: center;
+  color: var(--secondaryColor);
+}
+.userDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--secondaryColor);
+  margin: 10px 10px 0 0;
+}
+.userImg {
+  width: 30px;
+  height: 30px;
+}
+.reviewTitle {
+  font-weight: bold;
+}

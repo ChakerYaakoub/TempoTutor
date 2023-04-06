@@ -1,0 +1,146 @@
+.video-container {
+  width: 100%;
+  /* height: 70vh; */
+  overflow: hidden;
+  position: relative;
+  margin-bottom: var(--marginBottomBetweenSection);
+}
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+.TempoTutorMusicLessonsParagraph {
+  font-size: 30px;
+  color: var(--secondaryColor);
+}
+
+.attractUserParag {
+  font-size: 15px;
+  padding-right: 30px;
+}
+.startBtn {
+  background-color: transparent;
+  padding: var(--paddingButton);
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-size: var(--fontSizeBtn);
+  border-radius: var(--borderRadiusBtn);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.startBtn:hover {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+  transform: perspective(1000px) translateZ(60px);
+}
+@media (min-width: 1300px) {
+  .video-container {
+    height: 70vh;
+    height: 550px;
+  }
+  .titleApp {
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    color: var(--secondaryColor);
+    padding: 100px var(--primaryPadding) 0;
+    background-color: rgba(16, 78, 108, 0.5);
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .titleApp {
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    color: var(--secondaryColor);
+    padding: 120px var(--primaryPadding) 0;
+    background-color: rgba(16, 78, 108, 0.5);
+    box-sizing: border-box;
+  }
+  .video-container {
+    height: 70vh;
+    height: 550px;
+  }
+  .TempoTutorMusicLessonsParagraph {
+    font-size: 25px;
+    color: var(--secondaryColor);
+  }
+  .attractUserParag {
+    font-size: 14px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+  .titleApp {
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    color: var(--secondaryColor);
+    padding: 100px var(--primaryPadding) 0;
+    background-color: rgba(16, 78, 108, 0.5);
+    box-sizing: border-box;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .TempoTutorMusicLessonsParagraph {
+    font-size: 20px;
+    color: var(--secondaryColor);
+  }
+  .attractUserParag {
+    font-size: 13px;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px) {
+  .video-container {
+    margin-bottom: var(--marginBottomBetweenSectionOnSmallScreen);
+  }
+
+  .video-container {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+  }
+  .titleApp {
+    color: var(--secondaryColor);
+    padding: 20px var(--primaryPadding);
+    background-color: var(--primaryColor);
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 700px) {
+  .video-container {
+    margin-bottom: var(--marginBottomBetweenSectionOnSmallScreen);
+  }
+  .video-container {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+  }
+  .titleApp {
+    color: var(--secondaryColor);
+    padding: 10px var(--primaryPadding);
+    background-color: var(--primaryColor);
+    box-sizing: border-box;
+  }
+
+  .TempoTutorMusicLessonsParagraph {
+    font-size: 17px;
+    color: var(--secondaryColor);
+  }
+  .attractUserParag {
+    font-size: 13px;
+  }
+}

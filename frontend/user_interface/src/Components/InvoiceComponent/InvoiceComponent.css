@@ -1,0 +1,157 @@
+/*
+  Common invoice styles. These styles will work in a browser or using the HTML
+  to PDF anvil endpoint.
+*/
+
+.InvoiceComponent {
+    box-sizing: border-box;
+    overflow: auto;
+    width: 100%;
+    height: 60rem;
+    
+    margin: 5% auto;
+    padding: 2%;
+ 
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+
+.line-items-containerInvoiceSection {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.line-items-containerInvoiceSection tr td {
+    padding: 0;
+}
+
+.line-items-containerInvoiceSection tr td:last-child {
+    text-align: right;
+}
+
+.boldInvoiceSection {
+    font-weight: bold;
+}
+
+.rightInvoiceSection {
+    text-align: right;
+}
+
+.largeInvoiceSection {
+    font-size: 1.75em;
+}
+
+.totalInvoiceSection {
+    font-weight: bold;
+    color: #fb7578;
+}
+
+.logo-containerInvoiceSection {
+    margin: 20px 0 70px 0;
+}
+
+.invoice-info-containerInvoiceSection {
+    font-size: 0.875em;
+}
+
+.invoice-info-containerInvoiceSection td {
+    padding: 4px 0;
+}
+
+.client-nameInvoiceSection {
+    font-size: 1.5em;
+    vertical-align: top;
+}
+
+.line-items-containerInvoiceSection {
+    margin: 70px 0;
+    font-size: 0.875em;
+}
+
+.line-items-containerInvoiceSection th {
+    text-align: left;
+    color: #999;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0 15px 0;
+    font-size: 0.75em;
+    text-transform: uppercase;
+}
+
+.line-items-containerInvoiceSection th:last-child {
+    text-align: right;
+}
+
+.line-items-containerInvoiceSection td {
+    padding: 15px 0;
+}
+
+.line-items-containerInvoiceSection tbody tr:first-child td {
+    padding-top: 25px;
+}
+
+.line-items-containerInvoiceSection .has-bottom-borderInvoiceSection tbody tr:last-child td {
+    padding-bottom: 25px;
+    border-bottom: 2px solid #ddd;
+}
+
+.line-items-containerInvoiceSection.has-bottom-borderInvoiceSection {
+    margin-bottom: 0;
+}
+
+.line-items-containerInvoiceSection th.heading-quantityInvoiceSection {
+    width: 50px;
+}
+
+.line-items-containerInvoiceSection th.heading-priceInvoiceSection {
+    text-align: right;
+    width: 100px;
+}
+
+.line-items-containerInvoiceSection th.heading-subtotalInvoiceSection {
+    width: 100px;
+}
+
+.payment-infoInvoiceSection {
+    width: 38%;
+    font-size: 0.75em;
+    line-height: 1.5;
+}
+
+.footerInvoiceSection {
+    margin-top: 100px;
+ 
+}
+
+.footer-thanksInvoiceSection {
+    font-size: 1.125em;
+}
+
+.footer-thanksInvoiceSection img {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    width: 16px;
+    margin-right: 4px;
+}
+
+.footer-infoInvoiceSection {
+    float: right;
+    margin-top: 5px;
+    font-size: 0.75em;
+    color: #ccc;
+}
+
+.footer-infoInvoiceSection span {
+    padding: 0 5px;
+    color: black;
+}
+
+.footer-infoInvoiceSection span:last-child {
+    padding-right: 0;
+}
+
+.page-containerInvoiceSection {
+    display: none;
+}

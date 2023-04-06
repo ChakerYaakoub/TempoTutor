@@ -1,0 +1,292 @@
+.FisrtPurchaseTitleHideAfter {
+    display: flex;
+}
+.AllALlALlPurchase div{
+box-sizing: border-box;
+/* position: relative; */
+}
+
+.resetDivData {
+    position: relative; 
+
+}
+.nothigFilter{
+    margin: 2rem;
+    text-align: center;
+    width: 100%;
+}
+.resetDivData .myabsolutebtnck{
+    position: absolute;
+    right: 10px;
+ 
+ 
+ }
+
+ .myabsolutebtnck {
+    display: inline-block;
+    border-radius: 4px;
+  
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+  
+    text-align: center;
+    padding: 0.4rem 1.5rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* height: 40px; */
+    /* width: 100%; */
+    border-radius: 3px;
+    /* padding: 8px, 16px, 8px, 16px; */
+    vertical-align: middle;
+    color: white;
+    box-sizing: border-box;
+    /* background-color: rgb(111, 111, 230); */
+
+  }
+.FlexDivsInfoRevenue1{
+    margin: 1rem 0.5rem;
+
+}
+
+.FlexDivsInfoRevenue1 div {
+  margin: 1rem 0 ;
+  color: white;
+
+}
+
+
+
+.FlexDivsInfoRevenue12{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.FlexDivsInfoRevenue12 div{
+padding: 10px;
+width: 18%;
+border-radius: 10px;
+text-align: center;
+box-sizing: border-box;
+}
+/* .FlexDivsInfoRevenue123 div{
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    }
+.FlexDivsInfoRevenue123{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.Titititile{
+    /* font-size: medium; */
+    font-size: 1em;
+    color: #141e25;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.NbNBNbrev{
+    font-size: large;
+    font-weight: 900;
+    box-sizing: border-box;
+}
+
+.MyInputsFilterPurchase{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.MyInputsFilterPurchase label {
+    /* padding-right: 20px; */
+    font-size: large;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.MyInputsFilterPurchase input {
+    width: 90%;
+    padding: 9px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.VoidePurchAAse{
+    text-align: center;
+    color: #141e25;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.FisrtPurchaseTitleHideAfter div {
+    width: 20%;
+    white-space: nowrap;
+    padding: 1.6rem;
+    overflow: hidden;
+    /* color: #53575a; */
+    font-weight: 600;
+    box-sizing: border-box;
+
+}
+
+.BTNDetailSpanPurchase {
+    display: inline-block;
+    border-radius: 4px;
+  
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+  
+    text-align: center;
+    padding: 0.4rem 1.5rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* height: 40px; */
+    /* width: 100%; */
+    border-radius: 3px;
+    /* padding: 8px, 16px, 8px, 16px; */
+    vertical-align: middle;
+    color: white;
+    box-sizing: border-box;
+    /* background-color: rgb(111, 111, 230); */
+
+  }
+
+.FisrtPurchaseTitleNotHide {
+    display: flex;
+
+}
+
+.FisrtPurchaseTitleNotHide div {
+    width: 20%;
+    padding: 1.6rem;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.PurchasePrincipaleDivs {
+    box-shadow: inset 0 -1px 0 0 #d1d7dc;
+    text-align: center;
+}
+
+.HideTitlePurchase {
+    display: none;
+    color: #53575a;
+    font-weight: 600;
+}
+
+.DetailSpanPurchase {
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .FisrtPurchaseTitleHideAfter {
+        display: none;
+    }
+
+    .HideTitlePurchase {
+        display: block;
+    }
+
+    .FisrtPurchaseTitleNotHide{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .FisrtPurchaseTitleNotHide .regulairediv{ 
+        width: 50%;
+        display: flex;
+        box-sizing: border-box;
+        padding: 0.6rem;
+        /* here for 400 100% */
+      
+    } 
+
+    .FisrtPurchaseTitleNotHide .DetailSpanPurchase{ 
+        width: 100%;
+        /* display: flex;
+        padding: 0.6rem; */
+        /* here for 400 100% */
+      
+    } 
+
+    .FisrtPurchaseTitleNotHide div .HideTitlePurchase{
+        width: 50%;
+      
+      
+    } 
+
+ 
+
+    .BtnDetailSpanPurchaseDiv .HideTitlePurchase{
+       display: none;
+    }
+    .BtnDetailSpanPurchaseDiv{
+        width: 100% !important;
+    }
+
+    .BTNDetailSpanPurchase{
+        width: 100% !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .FisrtPurchaseTitleNotHide .regulairediv{ 
+        width: 100%;
+    
+       
+      
+    }
+    .HidelABB span {
+        display: none;
+    }
+
+    .FisrtPurchaseTitleNotHide .DetailSpanPurchase{ 
+        width: auto;
+        /* display: flex;
+        padding: 0.6rem; */
+        /* here for 400 100% */
+      
+    } 
+
+    .FlexDivsInfoRevenue12 div{
+        padding: 10px;
+        width: 30%;
+        border-radius: 10px;
+        text-align: center;
+        }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your CSS styles for medium screens here */
+
+    .FlexDivsInfoRevenue12 div{
+        padding: 10px;
+        width: 30%;
+        border-radius: 10px;
+        text-align: center;
+        }
+}
+
+@media only screen and (min-width: 992px) {
+    /* Your CSS styles for large screens here */
+    
+}

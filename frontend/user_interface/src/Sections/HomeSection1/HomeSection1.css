@@ -1,0 +1,58 @@
+.smallScreen {
+  display: block;
+}
+
+.attractUserParag {
+  font-size: 15px;
+  padding-right: 30px;
+}
+
+.appName {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  color: var(--primaryColor);
+  font-size: 25px;
+  font-weight: 600;
+  background-color: black;
+  padding-left: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.appIcon {
+  width: 35px;
+  margin-right: 10px;
+}
+@media (min-width: 1300px) {
+  .smallScreen {
+    display: none;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .smallScreen {
+    display: none;
+  }
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+  .smallScreen {
+    display: none;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px) {
+  .smallScreen {
+    display: block;
+  }
+  .desktop {
+    display: none !important;
+  }
+}
+@media (max-width: 700px) {
+  .smallScreen {
+    display: block;
+  }
+  .desktop {
+    display: none !important;
+  }
+}

@@ -1,0 +1,61 @@
+.iconPara {
+  text-align: center;
+}
+.musicIcon {
+  color: var(--primaryColor);
+  font-size: 70px;
+}
+.advice p {
+  font-size: 15px;
+}
+@media (min-width: 1300px) {
+  .advice p {
+    width: 400px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .musicIcon {
+    font-size: 60px;
+  }
+  .advice p {
+    width: 300px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+  .musicIcon {
+    font-size: 60px;
+  }
+  .advice p {
+    width: 250px;
+    font-size: 13px;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px) {
+  .advice p {
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .iconPara {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  .advice p {
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 13px;
+  }
+  .iconPara {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

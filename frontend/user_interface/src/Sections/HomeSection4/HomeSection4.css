@@ -1,0 +1,33 @@
+.userTestiomnialsDivContent {
+  background-color: var(--primaryColor);
+  padding: calc(var(--primaryPadding) / 1.5);
+}
+
+.userTestimonialsTitle {
+  font-size: 40px;
+  color: var(--secondaryColor);
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+.kXteup {
+  background-color: var(--secondaryColor) !important;
+  color: var(--primaryColor) !important;
+}
+.kXteup:hover {
+  background-color: var(--primaryColor) !important;
+  color: var(--secondaryColor) !important;
+  border: 2px solid var(--secondaryColor);
+}
+.cVXxbE {
+  background-color: var(--secondaryColor) !important;
+  box-shadow: 0 0 1px 3px var(--primaryColor) !important;
+}
+.cVXxbE:hover,
+.ezKHIn:hover {
+  border: 1px solid var(--primaryColory) !important;
+  box-shadow: 0 0 1px 1px var(--secondaryColor) !important;
+}
+.Slxdj {
+  background-color: var(--secondaryColor) !important;
+}
